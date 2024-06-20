@@ -2,6 +2,15 @@
 
 @section('title', 'Tambah Data Siswa')
 @section('content')
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 
 <section class="section">
     <div class="">
@@ -23,6 +32,11 @@
                 dibawah </p>
             <hr>
         </div>
+        <script>
+            @if ($errors->any())
+                alert('Ada kesalahan validasi pada formulir. Silakan periksa kembali.');
+            @endif
+        </script>
         <div class="card-body">
             <form method="POST" action="{{ route('data-siswa.store') }}">
                 @csrf
@@ -83,5 +97,4 @@
     </div>
     </div>
 </section>
-
 @endsection

@@ -6,10 +6,10 @@
 <section class="section">
     <div class="card card-primary">
         <div class="card-body">
-            <h2 class="card-title text-dark">PENGELOLAAN DATA SISWA</h2>
+            <h2 class="card-title text-dark">PENGELOLAAN DATA SANTRI</h2>
             <hr>
-            <p class="card-text">Berikut merupakan halaman pengelolaan data siswa di aplikasi SPPIE. Anda dapat melihat
-                data siswa, mengupdate data siswa, menambahkan data siswa & menghapus data siswa di halaman ini </p>
+            <p class="card-text">Berikut merupakan halaman pengelolaan data santri di aplikasi SisRi. Anda dapat melihat
+                data santri, mengupdate data santri, menambahkan data santri & menghapus data santri di halaman ini </p>
         </div>
     </div>
     <div class="row">
@@ -20,7 +20,7 @@
                         <thead class="thead-light">
                             <tr>
                                 <th scope="col">ID</th>
-                                <th scope="col">NISN</th>
+                                <th scope="col">NO.INDUK</th>
                                 <th scope="col">NAMA</th>
                                 <th scope="col">USERNAME</th>
                                 <th scope="col">EMAIL</th>

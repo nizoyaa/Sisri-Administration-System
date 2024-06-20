@@ -1,6 +1,6 @@
 <aside id="sidebar-wrapper">
     <div class="sidebar-brand">
-        <a href="index.html">SPPIE</a>
+        <a href="index.html">SisRi</a>
     </div>
     <div class="sidebar-brand sidebar-brand-sm">
         <a href="index.html">St</a>
@@ -9,12 +9,12 @@
         <li class="menu-header">Dashboard</li>
         <li class="nav-item dropdown active">
             <a href="{{ route('admin')}}" class="nav-link"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
-        <li class="menu-header">Pengelolaan Data SPP</li>
+        <li class="menu-header">Pengelolaan Data Syahriyah</li>
         <li class="nav-item dropdown">
             <a href="#" class="nav-link has-dropdown"><i class="fas fa-dollar-sign"></i>
-                <span>SPP</span></a>
+                <span>Syahriyah</span></a>
             <ul class="dropdown-menu">
-                <li><a class="nav-link" href="{{ route('data-spp-siswa.index') }}">Data SPP Siswa</a></li>
+                <li><a class="nav-link" href="{{ route('data-spp-siswa.index') }}">Data Syahriyah</a></li>
             </ul>
         </li>
     </ul>

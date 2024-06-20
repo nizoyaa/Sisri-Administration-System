@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-1 d-none d-md-block">
-                <img src="{{url('main-assets/images/logosmkn1ciamis.png') }}" style="width: 75%" class="img-fluid" />
+                <img src="{{url('main-assets/images/loqo.png') }}" style="width: 75%" class="img-fluid" />
             </div>
             <div class="col-md-5">
-                <p class="footer-header">SMKN 1 CIAMIS</p>
+                <p class="footer-header">TPQ AL-HUDA LAWANG</p>
                 <hr />
                 <p class="footer-core-info">
-                    <b>Layanan Contact SMKN 1 CIAMIS</b> <br />
+                    <b>Layanan Contact TPQ AL-HUDA LAWANG</b> <br />
                     Call Center : (022) 8827728 <br />
                     Formulir Pengaduan — <a href="#" class="text-white ">Link</a> <br />
                     Live Chat — <a href="#" class="text-white">Link</a> <br /><br />

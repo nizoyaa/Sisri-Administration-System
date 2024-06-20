@@ -6,14 +6,11 @@
 <section class="section">
     <div class="card">
         <div class="card-body">
-            <h2 class="card-title text-dark">Pengelolaan Data Petugas Sppie</h2>
+            <h2 class="card-title text-dark">Pengelolaan Data Petugas SisRi</h2>
             <hr>
-            <p class="card-text"> After I ran into Helen at a restaurant, I realized she was just office
-                pretty drop-dead date put in in a deck for our standup today. Who's responsible for the ask
-                for this request? who's responsible for the ask for this request? but moving the goalposts
-                gain traction. </p>
+            <p class="card-text"> Tambahkan data ustadz/ustadzah yang akan anda jadikan admin.</p>
             <a href="#" class="btn btn-primary">Tambah
-                Data Petugas ⭢ </a>
+                Data Asatidz ⭢ </a>
         </div>
     </div>
 

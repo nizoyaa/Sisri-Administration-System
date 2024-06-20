@@ -44,6 +44,7 @@
     .blog-slider__item {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
     @media screen and (max-width: 768px) {
@@ -175,6 +176,7 @@
     }
 
     .blog-slider__content {
+        flex-grow: 1;
         padding-right: 25px;
     }
 
@@ -318,20 +320,65 @@
                 <div class="blog-slider">
                     <div class="blog-slider__wrp swiper-wrapper">
                         <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                                <img src="{{url('main-assets/images/section-1.png')}}" alt="">
-                            </div>
-                            <div class="blog-slider__content">
-                                <span class="blog-slider__code">KONTAK VIA CHAT</span>
-                                <div class="blog-slider__title">Terhubung dengan kami via Instagram</div>
-                                <div class="blog-slider__text">Cukup tekan tombol di kiri kanan bawah di layar anda
-                                    dan nikmati chat langsung dengan kami </div>
-                                <a href="https://www.instagram.com/smkn1ciamis/"
-                                    class="blog-slider__button">Selengkapnya</a>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="blog-slider__img">
+                                        <img src="{{url('main-assets/images/section-1.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="blog-slider__content">
+                                        <span class="blog-slider__code">KONTAK VIA CHAT</span>
+                                        <div class="blog-slider__title">Terhubung dengan kami via Instagram</div>
+                                        <div class="blog-slider__text">Cukup tekan tombol di kiri kanan bawah di layar anda
+                                            dan nikmati chat langsung dengan kami </div>
+                                        <a href="https://www.instagram.com/tpqbqalhuda/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+                                            class="blog-slider__button">Selengkapnya</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="blog-slider__img">
+                                        <img src="{{url('main-assets/images/section-2.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <<div class="blog-slider__content">
+                                        <span class="blog-slider__code">KONTAK VIA CUSTOMER SERVICE</span>
+                                        <div class="blog-slider__title">Terhubung dengan kami via Call Center</div>
+                                        <div class="blog-slider__text">Cukup tekan tombol dibawah atau telfon nomor 088217930621
+                                            dan nikmati call center dengan kami</div>
+                                        <a href="https://wa.me/qr/M6QH7SPLKYJEG1" class="blog-slider__button">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="blog-slider__img">
+                                        <img src="{{url('main-assets/images/section-3.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="blog-slider__content">
+                                        <span class="blog-slider__code">KONTAK VIA EMAIL</span>
+                                        <div class="blog-slider__title">Terhubung dengan kami via email</div>
+                                        <div class="blog-slider__text">Cukup tekan tombol dibawah atau segera kirim email ke
+                                            tpqalhuda.bilqolam@gmail.com dan kami akan segera membalasnya!</div>
+                                        <a href="mailto:surat@smkn1cms.net" class="blog-slider__button">Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                        
+                        {{-- <div class="blog-slider__item swiper-slide">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="blog-slider__img">
                                 <img src="{{url('main-assets/images/section-2.png')}}" alt="">
                             </div>
                             <div class="blog-slider__content">
@@ -354,7 +401,7 @@
                                     disdik.jabarprov.go.id dan kami akan segera membalasnya!</div>
                                 <a href="mailto:surat@smkn1cms.net" class="blog-slider__button">Selengkapnya</a>
                             </div>
-                        </div>
+                        </div> --}}
 
                     </div>
                     <div class="blog-slider__pagination"></div>

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Users;
 use App\Models\Classes;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rule;
 
 class StudentController extends Controller
 {
@@ -24,6 +25,10 @@ class StudentController extends Controller
         ]);
     }
 
+
+    // Untuk validation
+
+    
     /**
      * Show the form for creating a new resource.
      *
@@ -46,6 +51,16 @@ class StudentController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'nisn' => 'required|numeric|unique:users,nisn',
+            'name' => 'required|string|max:255|regex:/^[a-zA-Z\s]+$/',
+            'username' => 'required|unique:users,username',
+            'password' => 'required|min:6',
+            'email' => 'required|email|unique:users,email',
+            'address' => 'required|string',
+            'phone_number' => 'required|numeric',
+            'class' => 'required',
+        ]);
         $data = $request->all();
 
         Users::create($data);
@@ -92,11 +107,38 @@ class StudentController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'nisn' => [
+                'required',
+                'numeric',
+                Rule::unique('users', 'nisn')->ignore($id),
+            ],
+            'name' => 'required|string|max:255|regex:/^[a-zA-Z\s]+$/',
+            'username' => [
+                'required',
+                Rule::unique('users', 'username')->ignore($id),
+            ],
+            'password' => 'nullable|min:6',
+            'email' => [
+                'required',
+                'email',
+                Rule::unique('users', 'email')->ignore($id),
+            ],
+            'address' => 'required|string',
+            'phone_number' => 'required|numeric',
+            'class' => 'required',
+        ]);
+    
         $data = $request->all();
         $item = Users::findOrFail($id);
         $item->update($data);
-
+    
         return redirect()->route('data-siswa.index');
+        // $data = $request->all();
+        // $item = Users::findOrFail($id);
+        // $item->update($data);
+
+        // return redirect()->route('data-siswa.index');
     }
 
     /**

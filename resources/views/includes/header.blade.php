@@ -15,6 +15,6 @@
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src=" https://cdn.jsdelivr.net/npm/chart.js@2.8.0"> </script>
-    <script src="{{url('main-assets/scripts/utils.js')}}""></script> @stack('css') <title>
-        SPPIE — Sistem Pembayaran SPP </title>
+    <script src="{{url('main-assets/scripts/utils.js')}}"></script> @stack('css') <title>
+        SISRI — Sistem Pembayaran Syahriyah </title>
 </head>

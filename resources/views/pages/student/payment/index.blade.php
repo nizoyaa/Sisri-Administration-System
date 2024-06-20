@@ -8,7 +8,7 @@
         <div class="card-body">
             <h2 class="card-title text-dark">PENGELOLAAN DATA SPP</h2>
             <hr>
-            <p class="card-text">Berikut merupakan halaman pengelolaan data SPP di aplikasi SPPIE.
+            <p class="card-text">Berikut merupakan halaman pengelolaan data SPP di aplikasi SisRi.
         </div>
     </div>
     <div class="row">

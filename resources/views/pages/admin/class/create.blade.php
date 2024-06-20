@@ -34,6 +34,9 @@
                         <label for="id_kelas">ID KELAS</label>
                         <input id="id_kelas" type="text" class="form-control" value="{{ old('class_id') }}"
                             name="class_id">
+                        @error('class_id')
+                            <div class="text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="form-group col-md-8">
                         <label for="kelas">KELAS</label>

@@ -47,7 +47,7 @@
             </div>
             <div class="col-md-4">
                 <div class="bg-light">
-                    <div class="card-body" id="mapid""></div>
+                    <div class="card-body" id="mapid"></div>
                 </div>
                 <div class=" row mt-2">
                         <div class="col-md-12">

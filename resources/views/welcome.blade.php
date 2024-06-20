@@ -8,14 +8,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 my-auto">
-                    <p class="label-top text-primary" data-aos="fade-up" data-aos-duration="900">SPPIE —
-                        SISTEM PEMBAYARAN SPP </p>
-                    <h1 data-aos="fade-up" data-aos-duration="1100">Sistem pembayaran SPP untuk mempermudah pembayaran
-                        SPP anda
+                    <p class="label-top text-primary" data-aos="fade-up" data-aos-duration="900">SISRI —
+                        SISTEM PEMBAYARAN SYAHRIYAH </p>
+                    <h1 data-aos="fade-up" data-aos-duration="1100">Sistem pembayaran syahriyah untuk mempermudah pembayaran
+                        syahriyah anda
                     </h1>
                     <p data-aos="fade-up" data-aos-duration="1300">
-                        SPPIE adalah sebuah website yang menyediakan sistem pembayaran SPP online untuk mempermudah
-                        pembayaran SPP anda agar dapat dilakukan dimanapun, kapanpun
+                        SISRI adalah sebuah website yang menyediakan sistem pembayaran syahriyah online untuk mempermudah
+                        pembayaran syahriyah anda agar dapat dilakukan dimanapun, kapanpun
                     </p>
                     <a data-aos="fade-up" data-aos-duration="1500" href="{{url('/auth')}}"
                         class="btn btn-primary px-5 py-2 mb-2 mb-md-0">Mulai sekarang &nbsp; →
@@ -25,7 +25,7 @@
                     </a>
                 </div>
                 <div class="col-md-5" data-aos="fade-up" data-aos-duration="1700">
-                    <img style="width: 80%" src="{{url('main-assets/images/hero-image.png')}}" alt=""
+                    <img style="width: 80%" src="{{url('main-assets/images/tpq.jpg')}}" alt=""
                         class="img-fluid d-none d-lg-block d-print-block float-md-end" srcset="" />
                 </div>
             </div>
@@ -36,12 +36,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 mx-auto text-center">
-                    <p data-aos="fade-up" data-aos-duration="1000" class="text-primary label-top">TENTANG SPPIE</p>
-                    <h1 data-aos="fade-up" data-aos-duration="1200">APA ITU SPPIE?</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="text-primary label-top">TENTANG SISRI</p>
+                    <h1 data-aos="fade-up" data-aos-duration="1200">APA ITU SISRI?</h1>
                     <hr data-aos="fade-up" data-aos-duration="1400" width="50%" class="mx-auto" />
                     <p data-aos="fade-up" data-aos-duration="1600">
-                        SPPIE adalah sebuah website yang menyediakan sistem pembayaran SPP online untuk mempermudah
-                        pembayaran SPP anda agar dapat dilakukan dimanapun, kapanpun
+                        SISRI adalah sebuah website yang menyediakan sistem pembayaran syahriyah online untuk mempermudah
+                        pembayaran syahriyah anda agar dapat dilakukan dimanapun, kapanpun
                     </p>
                     <a href="{{url('/faq')}}" data-aos="fade-up" data-aos-duration="1800"
                         class="btn btn-outline-primary px-4 py-2">Baca lebih lanjut</a>
@@ -54,14 +54,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5" data-aos="fade-up" data-aos-duration="1600">
-                    <img src="{{url('main-assets/images/body-image-1.webp')}}" class="img-fluid" alt="" srcset="" />
+                    <img src="{{url('main-assets/images/ruang.jpg')}}" class="img-fluid" alt="" srcset="" />
                 </div>
                 <div class="col-md-7 my-auto">
                     <p data-aos="fade-up" data-aos-duration="1000" class="text-primary label-top">KEMUDAHAN MENGGUNAKAN
-                        SPPIE</p>
-                    <h1 data-aos="fade-up" data-aos-duration="1200">Pembayaran SPP tak pernah semudah ini</h1>
+                        SISRI</p>
+                    <h1 data-aos="fade-up" data-aos-duration="1200">Pembayaran syahriyah tak pernah semudah ini</h1>
                     <p data-aos="fade-up" data-aos-duration="1400">
-                        Dengan adanya SPPIE, kemudahan pembayaran SPP dapat dilakukan oleh petugas juga siswa dan juga
+                        Dengan adanya SISRI, kemudahan pembayaran SPP dapat dilakukan oleh petugas juga santri dan juga
                         orang tua siswa dapat melihat log history pembayaran nya dimanapun, kapanpun.
                     </p>
                     <a id="cara-lapor" href="{{url('/auth')}}">
@@ -79,14 +79,11 @@
                 <div class="header-instruction text-center">
                     <div class="col-md-7 mx-auto">
                         <p class="text-primary label-top" data-aos="fade-up" data-aos-duration="1000">BAGAIMANA
-                            SPPIE
+                            SISRI
                             BEKERJA</p>
-                        <h1 data-aos="fade-up" data-aos-duration="1200">CARA LOGIN & PENGGUNAAN BAGI SISWA</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="1200">CARA LOGIN & PENGGUNAAN BAGI SANTRI</h1>
                         <p data-aos="fade-up" data-aos-duration="1400">
-                            {{-- Untuk anda yang masih baru kenal dengan kami, kami berikan
-                            caranya kok dibawah bagaimana caranya untuk menggunakan aplikasi
-                            ini --}}
-                            Cara masuk dan penggunaan pada aplikasi SPPIE, akan kami jelaskan secara rinci dibawah
+                            Cara masuk dan penggunaan pada aplikasi SISRI, akan kami jelaskan secara rinci dibawah
                             ini.
                         </p>
                     </div>
@@ -97,7 +94,7 @@
                     <p data-aos="fade-up" data-aos-duration="1000" class="mb-3"><i
                             class="lni lni-camera icon-top bg-primary px-3 py-2 text-center"></i></p>
                     <p data-aos="fade-up" data-aos-duration="1200" class="text-primary label-top">LANGKAH PERTAMA</p>
-                    <h1 data-aos="fade-up" data-aos-duration="1400" class="mt-2">Login ke aplikasi SPPIE Menggunakan
+                    <h1 data-aos="fade-up" data-aos-duration="1400" class="mt-2">Login ke aplikasi SISRI Menggunakan
                         Username & Password yang telah diberikan</h1>
                     <p data-aos="fade-up" data-aos-duration="1600">
                         Segera login dengan username & password yang telah diberikan, setelah itu anda dapat langsung
@@ -121,8 +118,8 @@
                             class="lni lni-lock icon-top bg-primary px-3 py-2 text-center"></i></p>
                     <p data-aos="fade-up" data-aos-duration="1200" class="text-primary label-top">LANGKAH KEDUA</p>
                     <h1 data-aos="fade-up" data-aos-duration="1400" class="mt-2">
-                        Segera pilih menu "Data SPP" di sidebar kiri anda, lalu anda dapat melihat history pembayaran
-                        SPP anda
+                        Segera pilih menu "Data Syahriyah" di sidebar kiri anda, lalu anda dapat melihat history pembayaran
+                        Syahriyah Anda
                     </h1>
                     <p data-aos="fade-up" data-aos-duration="1600">
                         Setelah itu anda dapat melihat riwayat pembayaran anda dimana saja dan kapan saja!
@@ -148,8 +145,8 @@
             0 33.5px 33.5px rgba(0, 0, 0, 0.034),
             0 53.4px 53.4px rgba(0, 0, 0, 0.039),
             0 100px 100px rgba(0, 0, 0, 0.05);">
-                <h1 class="fw-bold">Lakukan lebih dengan SPPIE</h1>
-                <p class="lead">Tunggu apa lagi? segera coba aplikasi SPPIE agar anda dapat melihat history pembayaran
+                <h1 class="fw-bold">Lakukan lebih dengan SISRI</h1>
+                <p class="lead">Tunggu apa lagi? segera coba aplikasi SISRI agar anda dapat melihat history pembayaran
                     anda dimana saja kapan saja</p>
                 <a class="text-white" href="{{url('/auth')}}">Masuk
                     &raquo;</a>

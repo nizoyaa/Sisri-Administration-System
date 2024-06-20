@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Student\RegistrationController;
 
 
 Route::get('/auth', function () {
@@ -70,5 +71,8 @@ Route::prefix('student')
             ->name('student');
         Route::resource('data-log-spp', 'App\Http\Controllers\Student\SppController');
     });
+
+Route::get('/register/student', [RegistrationController::class, 'showRegistrationForm'])->name('student.register');
+Route::post('/register/student', [RegistrationController::class, 'register'])->name('student.register.submit');
 
 require __DIR__ . '/auth.php';

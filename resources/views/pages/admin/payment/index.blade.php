@@ -6,9 +6,9 @@
 <section class="section">
     <div class="card card-primary">
         <div class="card-body">
-            <h2 class="card-title text-dark">PENGELOLAAN DATA SPP</h2>
+            <h2 class="card-title text-dark">PENGELOLAAN DATA SYAHRIYAH</h2>
             <hr>
-            <p class="card-text">Berikut merupakan halaman pengelolaan data SPP di aplikasi SPPIE.
+            <p class="card-text">Berikut merupakan halaman pengelolaan data SPP di aplikasi SisRi.
         </div>
     </div>
     <div class="row">
@@ -18,8 +18,8 @@
                     <table id="example" class="table align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
-                                <th scope="col">NISN</th>
-                                <th scope="col">NAMA SISWA</th>
+                                <th scope="col">NO.INDUK</th>
+                                <th scope="col">NAMA SANTRI</th>
                                 <th scope="col">BULAN</th>
                                 <th scope="col">TAHUN</th>
                                 <th scope="col">TOTAL BAYAR</th>

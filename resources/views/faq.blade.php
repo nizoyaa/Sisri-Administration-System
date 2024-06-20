@@ -14,8 +14,6 @@
                         Dibawah ini merupakan berbagai macam pertanyaan yang sering diajukan sekaligus jawaban yang
                         dapat anda baca dan dapat anda telusuri dengan mudah
                     </p>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1800"
-                        class="btn btn-outline-primary px-4 py-2">Jelajahi ▾</a>
                 </div>
             </div>
         </section>
@@ -31,14 +29,14 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Apa itu SPPIE?
+                                        Apa itu SISRI?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        SPPIE adalah sebuah website yang menyediakan sistem pembayaran SPP online untuk
-                                        mempermudah pembayaran SPP anda agar dapat dilakukan dimanapun, kapanpun
+                                        SISRI adalah sebuah website yang menyediakan sistem pembayaran syahriyah online untuk
+                                        mempermudah pembayaran syahriyah anda agar dapat dilakukan dimanapun, kapanpun
                                     </div>
                                 </div>
                             </div>
@@ -47,13 +45,13 @@
                                     <button class="accordion-button collapsed fw-bold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Apa tujuan SPIE?
+                                        Apa tujuan SISRI?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        SPPIE dibuat untuk membuat kemudahan pengecekan data spp agar dapat diakses
+                                        SISRI dibuat untuk membuat kemudahan pengecekan data syahriyah agar dapat diakses
                                         dimana saja dan kapan saja!
                                     </div>
                                 </div>
@@ -63,18 +61,18 @@
                                     <button class="accordion-button collapsed fw-bold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Bagaimana cara menggunakan SPPIE?
+                                        Bagaimana cara menggunakan SISRI?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         1.
-                                        Login ke aplikasi SPPIE Menggunakan Username & Password yang telah diberikan
+                                        Login ke aplikasi SISRI Menggunakan Username & Password yang telah diberikan
                                         Segera login dengan username & password yang telah diberikan, setelah itu anda
                                         dapat langsung masuk ke aplikasi kami <br>
-                                        2.Segera pilih menu "Data SPP" di sidebar kiri anda, lalu anda dapat melihat
-                                        history pembayaran SPP anda
+                                        2.Segera pilih menu "Data Syahriyah" di sidebar kiri anda, lalu anda dapat melihat
+                                        history pembayaran Syahriyah anda
                                         Setelah itu anda dapat melihat riwayat pembayaran anda dimana saja dan kapan
                                         saja! <br>
                                     </div>
@@ -98,8 +96,8 @@
                 0 33.5px 33.5px rgba(0, 0, 0, 0.034),
                 0 53.4px 53.4px rgba(0, 0, 0, 0.039),
                 0 100px 100px rgba(0, 0, 0, 0.05);">
-                    <h1 class="fw-bold">Lakukan lebih dengan SPPIE</h1>
-                    <p class="lead">Tunggu apa lagi? segera coba aplikasi SPPIE agar anda dapat melihat history
+                    <h1 class="fw-bold">Lakukan lebih dengan SISRI</h1>
+                    <p class="lead">Tunggu apa lagi? segera coba aplikasi SISRI agar anda dapat melihat history
                         pembayaran anda dimana saja kapan saja</p>
                     <a class="text-white" href="{{url('/auth')}}">Masuk
                         &raquo;</a>

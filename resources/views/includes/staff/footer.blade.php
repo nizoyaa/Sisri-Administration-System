@@ -1,6 +1,5 @@
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2021 <div class="bullet"></div> Stisla By <a href="https://nauval.in/">Muhamad
-            Nauval Azhar</a> — Sppie by <a href="https://syau.me/">SYAUQIZAIDAN KHAIRAN KHALAF</a>
+        Copyright &copy; 2023 <div class="bullet"></div> SisRi By Kelompok 1
     </div>
 </footer>

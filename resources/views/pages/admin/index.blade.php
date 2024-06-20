@@ -12,7 +12,7 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Siswa</h4>
+                        <h4>Santri</h4>
                     </div>
                     <div class="card-body">
                         {{ DB::table('users')->where('roles', 'STUDENT')->count() }}
@@ -42,7 +42,7 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Petugas</h4>
+                        <h4>Asatidz</h4>
                     </div>
                     <div class="card-body">
                         {{ DB::table('users')->where('roles', 'STAFF')->count() }}
@@ -74,7 +74,7 @@
                     <h4>Selamat Datang, {{ Auth::user()->name }}!</h4>
                 </div>
                 <div class="card-body">
-                    <p>Jika anda ingin segera melakukan pembayaran atau melakukan transaksi SPP silahkan klik disini</p>
+                    <p>Jika anda ingin segera melakukan pembayaran atau melakukan transaksi Syahriyah silahkan klik disini</p>
                     <a href="{{route('data-spp.create')}}" class="btn btn-primary btn-pill">Tambah Transaksi →</a>
                 </div>
             </div>
@@ -85,8 +85,8 @@
                     <table id="example" class="table align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
-                                <th scope="col">NISN</th>
-                                <th scope="col">NAMA SISWA</th>
+                                <th scope="col">NO INDUK</th>
+                                <th scope="col">NAMA SANTRI</th>
                                 <th scope="col">BULAN</th>
                                 <th scope="col">TAHUN</th>
                                 <th scope="col">TOTAL BAYAR</th>

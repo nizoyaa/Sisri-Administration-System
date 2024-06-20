@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>SPPIE &mdash; Login </title>
+    <title>SisRi &mdash; Login </title>
     <!-- General CSS Files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,10 +21,10 @@
             <div class="d-flex flex-wrap align-items-stretch">
                 <div class="col-lg-4 col-md-6 col-12 order-lg-1 min-vh-100 order-2 bg-white">
                     <div class="p-4 m-3">
-                        <img src="{{ url('stisla/assets/img/stisla-fill.svg')}}" alt="logo" width="80"
+                        <img src="{{ url('main-assets/images/2.png')}}" alt="logo" width="80"
                             class="shadow-light rounded-circle mb-5 mt-2">
                         <h4 class="text-dark font-weight-normal">Selamat datang di <span
-                                class="font-weight-bold">Sppie</span>
+                                class="font-weight-bold">SISRI</span>
                         </h4>
                         <p class="text-muted">Sebelum Anda memulai, anda harus masuk dengan username dan password yang
                             telah disediakan.</p>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-12 order-lg-2 order-1 min-vh-100 background-walk-y position-relative overlay-gradient-bottom"
-                    data-background="{{ url('images/login-bg.jpg')}}">
+                    data-background="{{ url('images/login.jpg')}}">
                     <div class="absolute-bottom-left index-2">
                         <div class="text-light p-5 pb-2">
                             <div class="mb-5 pb-3">
@@ -77,7 +77,7 @@
                                 <h5 class="font-weight-normal text-muted-transparent">Silahkan login untuk masuk ke
                                     halaman dashboard.</h5>
                             </div>
-                            Sppie is made with <span class="text-danger">♥</span> by Syauqi
+                            Sisri is made with <span class="text-danger">♥</span> by Kelompok 1
                         </div>
                     </div>
                 </div>

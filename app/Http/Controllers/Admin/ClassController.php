@@ -41,6 +41,20 @@ class ClassController extends Controller
      */
     public function store(Request $request)
     {
+        // Validasi input
+    $validator = Validator::make($request->all(), [
+        'class_id' => 'required|string|max:255',
+        'class_name' => 'required|string|max:255',
+        'skill_competence' => 'required|string|max:255',
+    ]);
+
+    // Jika validasi gagal, kembali ke halaman sebelumnya dengan pesan kesalahan
+    if ($validator->fails()) {
+        return redirect()->back()
+                    ->withErrors($validator)
+                    ->withInput();
+    }
+    
         $data = $request->all();
 
         Classes::create($data);
